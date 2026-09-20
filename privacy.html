@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Hourly — 개인정보 처리방침</title>
+<style>
+  :root {
+    --paper: #FFFFFF;
+    --ink: #1C1C1E;
+    --subtle: #69665F;
+    --rule: #EAE7E0;
+    --accent: #5B7FFF;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --paper: #1A1A1E;
+      --ink: #EDEDF0;
+      --subtle: #ADADB8;
+      --rule: #2A2A31;
+      --accent: #7B9AFF;
+    }
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    padding: 48px 20px 96px;
+    background: var(--paper);
+    color: var(--ink);
+    font: 16px/1.75 -apple-system, BlinkMacSystemFont, "Apple SD Gothic Neo",
+          "Pretendard", "Noto Sans KR", sans-serif;
+    -webkit-font-smoothing: antialiased;
+  }
+  main { max-width: 660px; margin: 0 auto; }
+  h1 {
+    font-size: 28px; line-height: 1.3; margin: 0 0 6px;
+    letter-spacing: -0.02em;
+  }
+  .updated { color: var(--subtle); font-size: 14px; margin: 0 0 40px; }
+  h2 {
+    font-size: 18px; margin: 44px 0 12px;
+    padding-top: 24px; border-top: 1px solid var(--rule);
+    letter-spacing: -0.01em;
+  }
+  h2:first-of-type { border-top: none; padding-top: 0; }
+  p { margin: 0 0 14px; }
+  ul { margin: 0 0 14px; padding-left: 20px; }
+  li { margin-bottom: 6px; }
+  strong { font-weight: 600; }
+  .lead {
+    font-size: 19px; line-height: 1.6; font-weight: 600;
+    padding: 20px 22px; margin: 0 0 8px;
+    border-left: 3px solid var(--accent);
+    background: color-mix(in srgb, var(--accent) 7%, transparent);
+    border-radius: 0 10px 10px 0;
+  }
+  a { color: var(--accent); }
+  footer {
+    margin-top: 56px; padding-top: 24px;
+    border-top: 1px solid var(--rule);
+    color: var(--subtle); font-size: 14px;
+  }
+  .en { margin-top: 72px; }
+</style>
+</head>
+<body>
+<main>
+
+  <h1>아워리 (Hourly) — 개인정보 처리방침</h1>
+  <p class="updated">최종 수정: 2026년 9월 20일</p>
+
+  <p class="lead">아워리는 시간 기록을 개발자 서버로 전송하지 않습니다.<br>
+  회원가입과 광고 없이 사용할 수 있습니다.</p>
+
+  <h2>앱에서 처리하는 정보</h2>
+  <p>아워리는 시간 기록, 메모, 할 일, 카테고리와 앱 설정을 사용자의 기기에 저장합니다.
+  회원가입이나 로그인이 없으며, 광고·사용자 추적·분석용 외부 SDK를 사용하지 않습니다.
+  개발자가 앱에서 이 기록을 자동으로 수집하거나 전송받지 않습니다.</p>
+
+  <h2>저장과 삭제</h2>
+  <p>앱과 위젯은 같은 기록과 설정을 표시하기 위해 기기 내부의 공유 저장 공간을 사용합니다.
+  아워리 자체의 서버나 클라우드 동기화 기능은 없습니다.</p>
+  <p>기록은 앱에서 직접 수정하거나 삭제할 수 있습니다. 앱을 삭제하면 기기에 저장된 기록을
+  잃을 수 있으므로 필요한 기록은 미리 내보내 주세요. 기기의 시스템 백업에 포함되는 데이터는
+  사용자의 iOS 및 Apple 백업 설정에 따릅니다.</p>
+
+  <h2>파일 가져오기와 공유</h2>
+  <p>CSV 가져오기는 사용자가 파일 앱에서 선택한 파일을 읽어 기기에 저장된 기록에 반영합니다.
+  CSV나 이미지 공유를 선택하면 사용자가 고른 앱 또는 서비스로 해당 파일이 전달됩니다.
+  개발자에게 자동으로 전송되지는 않으며, 공유된 파일에는 선택한 서비스의 정책이 적용됩니다.</p>
+  <p>CSV는 시간·할 일 기록을 옮기는 기능입니다. 10분 칸의 배치, 카테고리별 시간 배분과
+  앱 설정 전체를 원본 그대로 복원하는 백업은 아닙니다.</p>
+
+  <h2>알림 권한</h2>
+  <p>설정에서 <strong>하루 마무리 알림</strong>을 켤 때 알림 권한을 요청합니다.
+  알림은 기기에서 예약하고 표시하는 로컬 알림이며 서버로 기록을 보내지 않습니다.
+  앱 설정이나 iOS 설정에서 언제든 끌 수 있습니다.</p>
+
+  <h2>결제</h2>
+  <p>현재 배포 기능에서는 테마 판매와 앱 내 구매를 제공하지 않습니다.
+  결제 기능을 제공하게 되면 관련 처리 내용을 이 페이지에 안내하겠습니다.</p>
+
+  <h2>문의 및 외부 서비스</h2>
+  <p>문의 메일을 보내면 이메일 주소와 사용자가 작성한 내용을 개발자가 받아 답변에 사용합니다.
+  문의에 불필요한 개인정보를 포함하지 말아 주세요. 문의 메일의 삭제 요청도 아래 주소로
+  연락할 수 있습니다.</p>
+  <p>리뷰 남기기는 App Store, 문의하기는 메일 앱, 개인정보 처리방침은 웹 브라우저로 연결됩니다.
+  외부 서비스를 이용할 때는 각 서비스의 개인정보 처리방침이 적용됩니다.</p>
+  <p>이 웹페이지는 GitHub Pages에서 제공합니다. 웹페이지 방문 시 GitHub가 처리하는 접속 정보는
+  <a href="https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement">GitHub 개인정보 처리방침</a>을 참고해 주세요.
+  이 페이지에는 자체 분석 도구나 광고를 넣지 않았습니다.</p>
+
+  <h2>방침 변경</h2>
+  <p>앱의 데이터 처리 방식이 바뀌면 이 페이지의 내용과 수정일을 갱신하고,
+  필요한 경우 앱 안에서도 안내하겠습니다.</p>
+
+  <h2>문의처</h2>
+  <p>아워리 개발자 · <a href="mailto:yellowbutter0327@gmail.com">yellowbutter0327@gmail.com</a></p>
+
+  <section class="en" lang="en">
+    <h2>Hourly — Privacy Policy</h2>
+    <p class="updated">Last updated: September 20, 2026</p>
+    <p>Hourly stores time records, memos, to-dos, categories and settings on your device.
+    The developer does not automatically collect or receive these records. The app has
+    no account system, advertising, tracking or third-party analytics SDKs.</p>
+    <h2>Storage, files and deletion</h2>
+    <p>The app and its widgets share on-device storage. Hourly has no developer-operated
+    server or cloud synchronization. You can edit or delete records in the app.
+    Deleting the app may remove your records, so export anything you need first.
+    System backups are governed by your iOS and Apple backup settings.</p>
+    <p>CSV import reads files you choose. Sharing sends CSV files or images to the app or
+    service you select, whose policies then apply. These files are not automatically sent
+    to the developer. CSV transfer is not a full backup: individual cell placement,
+    per-category time allocation and all app settings may not be restored exactly.</p>
+    <h2>Notifications and purchases</h2>
+    <p>Notification permission is requested when you enable the daily reminder. Reminders
+    are scheduled locally. You can disable them in the app or iOS Settings. The current
+    release does not offer theme sales or in-app purchases.</p>
+    <h2>Support and external services</h2>
+    <p>If you email support, the developer receives your email address and message to
+    respond to your request. Please omit unnecessary personal information. You can request
+    deletion of support messages using the address below.</p>
+    <p>Review links open the App Store, contact links open your mail app and the privacy link
+    opens a web browser. Those services have their own policies. This website is hosted on
+    GitHub Pages; see the <a href="https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement">GitHub Privacy Statement</a>
+    for information processed when you visit. This page has no added analytics or advertising.</p>
+    <h2>Changes and contact</h2>
+    <p>We will update this page and its date when our data practices change, and provide
+    in-app notice where needed. Contact the Hourly developer at
+    <a href="mailto:yellowbutter0327@gmail.com">yellowbutter0327@gmail.com</a>.</p>
+  </section>
+
+  <footer><a href="index.html">아워리 소개 · 지원</a></footer>
+
+</main>
+</body>
+</html>
